@@ -9,8 +9,8 @@
       return innerCreateNotification;
     }
     case 'denied': {
-      alert('Notification already denied');
-      break;
+        return innerCreateNotification;
+  alert('too bad loser!')
     }
     case 'default': {
       Notification.requestPermission((permission) => {
